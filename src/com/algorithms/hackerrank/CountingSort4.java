@@ -1,8 +1,6 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+package com.algorithms.hackerrank;
+
+import java.util.Scanner;
 
 public class CountingSort4 {
 
@@ -37,5 +35,7 @@ public class CountingSort4 {
                 System.out.print(sb.toString());
             }
         }
+        
+        in.close();
     }
 }

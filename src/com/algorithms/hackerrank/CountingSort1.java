@@ -1,8 +1,6 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+package com.algorithms.hackerrank;
+
+import java.util.Scanner;
 
 public class CountingSort1 {
 
@@ -19,5 +17,6 @@ public class CountingSort1 {
             System.out.print(arr[i] + " ");
         }
         
+        in.close();
     }
 }

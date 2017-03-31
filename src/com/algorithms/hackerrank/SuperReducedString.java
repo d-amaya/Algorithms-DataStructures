@@ -1,8 +1,7 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+package com.algorithms.hackerrank;
+
+import java.util.Scanner;
+import java.util.Stack;
 
 public class SuperReducedString {
 
@@ -25,9 +24,12 @@ public class SuperReducedString {
             for (int i = 0; i < stack.size(); i++) {
                 System.out.print(stack.get(i));
             }
+            in.close();
             return;
         }
         
         System.out.print("Empty String");
+        
+        in.close();
     }
 }
