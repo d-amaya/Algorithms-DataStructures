@@ -1,4 +1,4 @@
-package com.algorithms.dijkstra;
+package com.algorithms.graphs.dijkstra;
 
 import java.util.LinkedList;
 import java.util.List;

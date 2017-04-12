@@ -1,4 +1,4 @@
-package com.algorithms.dijkstra;
+package com.algorithms.graphs.dijkstra;
 
 public class Edge implements Comparable<Edge> {
 
