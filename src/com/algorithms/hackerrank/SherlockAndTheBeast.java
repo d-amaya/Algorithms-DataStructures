@@ -38,5 +38,7 @@ public class SherlockAndTheBeast {
 		for (int i = 0; i < t; i++) {
 			System.out.println(getMaxDecentNumber(in.nextInt()));
 		}
+		
+		in.close();
 	}
 }
