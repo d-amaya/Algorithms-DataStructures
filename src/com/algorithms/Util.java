@@ -13,6 +13,10 @@ public class Util {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println('a' - 'Z');
+		int a = 6;
+		
+		System.out.println(Integer.parseUnsignedInt("00001100", 2));
+		System.out.println(Integer.parseUnsignedInt("10001100", 2));
+		System.out.println(Integer.parseUnsignedInt("00001100", 2) & Integer.parseUnsignedInt("10001100", 2));
 	}
 }
