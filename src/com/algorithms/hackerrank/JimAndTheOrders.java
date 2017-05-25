@@ -1,3 +1,5 @@
+package com.algorithms.hackerrank;
+
 import java.util.*;
 
 public class JimAndTheOrders {

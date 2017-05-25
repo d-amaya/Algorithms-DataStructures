@@ -1,6 +1,8 @@
+package com.algorithms.hackerrank;
+
 import java.util.*;
 
-public class Solution {
+public class PriyankaAndToys {
   
   private static void quickSort(int[] toys, int from, int to) {
     if (to <= from) return;
@@ -51,3 +53,5 @@ public class Solution {
     System.out.print(getMinimumUnits(toys));
     in.close();
   }
+  
+}

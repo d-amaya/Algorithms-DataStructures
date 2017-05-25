@@ -34,5 +34,7 @@ public class MaxSubarray {
             for (int j = 0; j < arr.length; j++) arr[j] = in.nextInt();
             System.out.println(getMaxContiguousSubarray(arr) + " " + getMaxNoContiguousSubarray(arr));
         }
+        
+        in.close();
     }
 }

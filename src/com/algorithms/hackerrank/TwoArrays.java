@@ -36,5 +36,7 @@ public class TwoArrays {
             
             System.out.println(possiblePermutation(a, b, k) ? "YES" : "NO");
         }
+        
+        in.close();
     }
 }
