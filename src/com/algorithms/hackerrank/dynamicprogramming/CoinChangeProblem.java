@@ -4,7 +4,7 @@ import java.util.*;
 
 public class CoinChangeProblem {
 
-    static long getWays(int n, int[] c) {
+    public static long getWays(int n, int[] c) {
         long[] dp = new long[n + 1];
         for (int i = 0; i < c.length; i++) {
             int coin = c[i];
