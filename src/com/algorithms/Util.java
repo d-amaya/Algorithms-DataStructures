@@ -1,10 +1,33 @@
 package com.algorithms;
 
+import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 import java.util.Scanner;
 
 public class Util {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws MalformedURLException, UnsupportedEncodingException {
+		int g = 1000000000;
+		long[] x = new long[g];
+	}
+	
+	
+	public static ArrayList<Integer> getA() {
+		ArrayList<Integer> a = new ArrayList<>();
+		a.add(1);
+		a.add(2);
+		a.add(2);
+		return a;
+	}
+	
+	
+	public static void main5(String[] args) {
 		short[] result = new short[27];
 		String s = "abcdtefghi";
 

@@ -15,6 +15,13 @@ public class LongestCommonSubsequence {
 	private static String getLCS(String s1, String s2) {
 		int[][] dp = buildMatrixLCS(s1, s2);
 		
+		for (int i = 0; i < dp.length; i++) {
+			for (int j = 0; j < dp[0].length; j++) {
+				System.out.print(dp[i][j] + " ");
+			}
+			System.out.println();
+		}
+		
 		Stack<Character> stack = new Stack<Character>();
 		int i = s1.length(), j = s2.length();
 		
