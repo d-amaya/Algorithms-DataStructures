@@ -25,6 +25,17 @@ public class TreeNode {
 		}
 		return this;
 	}
+	
+	public void printPreOrder() {
+		preOrderTraversal(this);
+	}
+	
+	private void preOrderTraversal(TreeNode node) {
+		if (node == null) return;
+		System.out.print(node.value + " ");
+		preOrderTraversal(node.left);
+		preOrderTraversal(node.right);
+	}
 
 	public int getValue() {
 		return value;
