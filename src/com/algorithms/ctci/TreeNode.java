@@ -26,6 +26,23 @@ public class TreeNode {
 		return this;
 	}
 	
+	public TreeNode addNode(TreeNode node) {
+		if (node.value <= this.value) {
+			if (this.left != null) {
+				this.left.addNode(node);
+			} else {
+				this.left = node;
+			}
+		} else {
+			if (this.right != null) {
+				this.right.addNode(node);
+			} else {
+				this.right = node;
+			}
+		}
+		return this;
+	}
+	
 	public void printPreOrder() {
 		preOrderTraversal(this);
 	}
