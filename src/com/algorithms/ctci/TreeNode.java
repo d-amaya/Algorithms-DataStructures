@@ -53,6 +53,17 @@ public class TreeNode {
 		preOrderTraversal(node.left);
 		preOrderTraversal(node.right);
 	}
+	
+	public void printInOrder() {
+		inOrderTraversal(this);
+	}
+	
+	private void inOrderTraversal(TreeNode node) {
+		if (node == null) return;
+		inOrderTraversal(node.left);
+		System.out.print(node.value + " ");
+		inOrderTraversal(node.right);
+	}
 
 	public int getValue() {
 		return value;
